@@ -40,6 +40,7 @@ h1 {
 .image-container img {
   width: 100%;
   margin-top: 5px;
+  border: 50px solid white;
 }
 
 /* Media Query */
@@ -50,5 +51,9 @@ h1 {
 
   .image-container {
     margin: 10px;
+  }
+
+  .image-container img {
+    border-width: 5px;
   }
 }
